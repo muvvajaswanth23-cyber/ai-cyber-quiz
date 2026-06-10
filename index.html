@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI & Cyber Security Learning App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🚀 Smart Learning App</h1>
+<h3>By Jaswanth Chowdary Muvva| Intern @ Indian Servers</h3>
+
+<!-- Topic Selection -->
+<div class="container">
+    <h2>Select Topic</h2>
+    <button onclick="loadTopic('ai')">🤖 AI</button>
+    <button onclick="loadTopic('cyber')">🛡️ Cyber Security</button>
+    <button onclick="loadTopic('safety')">📱 Digital Safety</button>
+    <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</div>
+
+<!-- Learning Section -->
+<div class="container">
+    <h2>📘 Learn</h2>
+    <p id="learnContent">Select a topic to start learning...</p>
+</div>
+
+<!-- Quiz Section -->
+<div class="container">
+    <h2>🧠 Quiz</h2>
+
+    <div class="progress-bar">
+        <div id="progress"></div>
+    </div>
+
+    <p id="question">Choose a topic first</p>
+
+    <button class="option" onclick="checkAnswer(0)"></button>
+    <button class="option" onclick="checkAnswer(1)"></button>
+    <button class="option" onclick="checkAnswer(2)"></button>
+
+    <p id="result"></p>
+
+    <button onclick="restartQuiz()">🔁 Play Again</button>
+</div>
+
+<!-- Cyber Security Activity -->
+<div class="container">
+    <h2>🛡️ Security Activity</h2>
+    <p>Drag the SECURE practice 👇</p>
+
+    <div class="drag-items">
+        <div draggable="true" id="safe" ondragstart="drag(event)">
+            🔐 Strong Password (Abc@123)
+        </div>
+
+        <div draggable="true" id="unsafe" ondragstart="drag(event)">
+            ❌ Weak Password (123456)
+        </div>
+    </div>
+
+    <div class="dropbox" ondrop="drop(event)" ondragover="allowDrop(event)">
+        Drop here: Secure Practice
+    </div>
+
+    <p id="dragResult"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
