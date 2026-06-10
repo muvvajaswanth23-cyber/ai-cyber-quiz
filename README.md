@@ -10,5 +10,5 @@ This project helps users learn:
 - Drag & Drop Activity
 - Score System
 
-👨‍💻 Developed by Jaswanth
+👨‍💻 Developed by Jaswanth Chowdary Muvva
 Intern @ Indian Servers
