@@ -1,14 +1,61 @@
-# AI & Cyber Security Quiz App
+🤖 AI & Cybersecurity Quiz App
 
-This project helps users learn:
-- Artificial Intelligence
-- Cyber Security
-- Digital Safety
+An interactive quiz application designed to help students and beginners learn about Artificial Intelligence, Cybersecurity, and Digital Safety.
 
-✨ Features:
-- Interactive Quiz
-- Drag & Drop Activity
-- Score System
+📌 About the Project
 
-👨‍💻 Developed by Jaswanth Chowdary Muvva
-Intern @ Indian Servers
+This project makes learning technology concepts simple and engaging through interactive quiz activities.
+
+✨ Features
+
+- Interactive quiz questions
+- Artificial Intelligence learning
+- Cybersecurity awareness
+- Digital Safety concepts
+- Drag and Drop activities
+- Score calculation system
+
+🛠️ Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+📂 Project Structure
+
+ai-cyber-quiz/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+🚀 How to Run
+
+1. Download or clone this repository.
+2. Open the project folder.
+3. Open "index.html" in your web browser.
+4. Start exploring the quiz.
+
+🎯 Project Objective
+
+To improve awareness of Artificial Intelligence, Cybersecurity, and Digital Safety through interactive learning.
+
+🔮 Future Improvements
+
+- Add more quiz questions.
+- Introduce difficulty levels.
+- Improve the user interface.
+- Add more learning activities.
+
+👨‍💻 Developed By
+
+Jaswanth Chowdary Muvva
+
+Trainee at Calibo | Intern @ Indian Servers
+
+B.Tech Student – Dhanekula Institute of Engineering and Technology
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
