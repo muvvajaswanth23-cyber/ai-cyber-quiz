@@ -21,14 +21,17 @@ This project makes learning technology concepts simple and engaging through inte
 - CSS
 - JavaScript
 
-📂 Project Structure
 
+## 📂 Project Structure
+
+```text
 ai-cyber-quiz/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+```
 
 🚀 How to Run
 
